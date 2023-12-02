@@ -1,0 +1,23 @@
+chain_id: osmosis-1
+valoper_address: osmovaloper1s0lankh33kprer2l22nank5rvsuh9ksavlsh86
+public_fallback: no
+
+alerts:
+  stalled_enabled: yes
+  stalled_minutes: 10
+  consecutive_enabled: yes
+  consecutive_missed: 500
+  consecutive_priority: critical
+  percentage_enabled: no
+  percentage_missed: 5
+  percentage_priority: critical
+  alert_if_inactive: yes
+  alert_if_no_servers: yes
+  pagerduty:
+    enabled: yes
+  discord:
+    enabled: yes
+
+nodes:
+  - url: https://rpc-1.osmosis.nodes.guru:443
+    alert_if_down: yes
