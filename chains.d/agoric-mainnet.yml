@@ -1,0 +1,21 @@
+chain_id: agoric-3
+valoper_address: agoricvaloper1fy8r6zq3dde6n7ak6eqy5zsrp3s7sz833dmv32
+public_fallback: yes
+alerts:
+  stalled_enabled: yes
+  stalled_minutes: 10
+  consecutive_enabled: yes
+  consecutive_missed: 400
+  consecutive_priority: critical
+  percentage_enabled: yes
+  percentage_missed: 5
+  percentage_priority: critical
+  alert_if_inactive: yes
+  alert_if_no_servers: yes
+  pagerduty:
+    enabled: yes
+  discord:
+    enabled: yes
+nodes:
+  - url: https://main.rpc.agoric.net:443
+    alert_if_down: yes

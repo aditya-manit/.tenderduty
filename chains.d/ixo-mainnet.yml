@@ -1,0 +1,21 @@
+chain_id: ixo-5
+valoper_address: ixovaloper1s0lankh33kprer2l22nank5rvsuh9ksat8986e
+public_fallback: yes
+alerts:
+  stalled_enabled: yes
+  stalled_minutes: 10
+  consecutive_enabled: yes
+  consecutive_missed: 500
+  consecutive_priority: critical
+  percentage_enabled: yes
+  percentage_missed: 5
+  percentage_priority: critical
+  alert_if_inactive: yes
+  alert_if_no_servers: yes
+  pagerduty:
+    enabled: yes
+  discord:
+    enabled: yes
+nodes:
+  - url: https://ixo.rpc.m.anode.team:443
+    alert_if_down: yes

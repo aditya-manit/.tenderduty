@@ -1,0 +1,21 @@
+chain_id: phoenix-1
+valoper_address: terravaloper1znh6eq79l3z5l7ctnrjr2d8ksaght25lku6mlw
+public_fallback: yes
+alerts:
+  stalled_enabled: yes
+  stalled_minutes: 10
+  consecutive_enabled: yes
+  consecutive_missed: 500
+  consecutive_priority: critical
+  percentage_enabled: yes
+  percentage_missed: 5
+  percentage_priority: critical
+  alert_if_inactive: yes
+  alert_if_no_servers: yes
+  pagerduty:
+    enabled: yes
+  discord:
+    enabled: yes
+nodes:
+  - url: https://terra-rpc.polkachu.com:443
+    alert_if_down: yes
