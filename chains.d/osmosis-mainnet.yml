@@ -1,6 +1,6 @@
 chain_id: osmosis-1
 valoper_address: osmovaloper1s0lankh33kprer2l22nank5rvsuh9ksavlsh86
-public_fallback: no
+public_fallback: yes
 
 alerts:
   stalled_enabled: yes
@@ -8,7 +8,7 @@ alerts:
   consecutive_enabled: yes
   consecutive_missed: 500
   consecutive_priority: critical
-  percentage_enabled: no
+  percentage_enabled: yes
   percentage_missed: 5
   percentage_priority: critical
   alert_if_inactive: yes

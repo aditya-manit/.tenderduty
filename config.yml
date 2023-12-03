@@ -7,7 +7,7 @@ listen_port: 8888
 # info leaks about node names, etc.
 hide_logs: no
 # How long to wait before alerting that a node is down.
-node_down_alert_minutes: 3
+node_down_alert_minutes: 4
 # Node Down alert Pagerduty Severity
 node_down_alert_severity: critical
 
@@ -51,8 +51,8 @@ slack:
 # Healthcheck settings (dead man's switch)
 healthcheck:
   # Send pings to determine if the monitor is running?
-  enabled: no
+  enabled: yes
   # URL to send pings to.
-  ping_url: https://hc-ping.com/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee
+  ping_url: https://hc-ping.com/4921574a-5495-4013-b6d6-57dea6be01f9
   # Rate in which pings are sent in seconds.
   ping_rate: 60
