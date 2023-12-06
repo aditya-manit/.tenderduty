@@ -4,7 +4,7 @@ public_fallback: yes
 
 alerts:
   stalled_enabled: yes
-  stalled_minutes: 10
+  stalled_minutes: 80
   consecutive_enabled: yes
   consecutive_missed: 500
   consecutive_priority: critical

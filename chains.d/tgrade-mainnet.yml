@@ -3,7 +3,7 @@ valoper_address: tgrade1s0lankh33kprer2l22nank5rvsuh9ksa4nr6gl
 public_fallback: yes
 alerts:
   stalled_enabled: yes
-  stalled_minutes: 10
+  stalled_minutes: 80
   consecutive_enabled: yes
   consecutive_missed: 500
   consecutive_priority: critical
