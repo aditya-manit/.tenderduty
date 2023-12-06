@@ -17,5 +17,5 @@ alerts:
   discord:
     enabled: yes
 nodes:
-  - url: https://terra-rpc.polkachu.com:443
+  - url: http://95.217.211.246:26657
     alert_if_down: yes
