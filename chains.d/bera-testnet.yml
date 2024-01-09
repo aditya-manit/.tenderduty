@@ -1,9 +1,9 @@
-chain_id: omniflixhub-1
-valoper_address: omniflixvaloper1s0lankh33kprer2l22nank5rvsuh9ksawlguse
+chain_id: artio-80085
+valoper_address: beravaloper1l9wxdywayz6c7a93frfdxnn6uw6e6p3330ywvy
 public_fallback: yes
 alerts:
-  stalled_enabled: no
-  stalled_minutes: 40
+  stalled_enabled: yes
+  stalled_minutes: 10
   consecutive_enabled: yes
   consecutive_missed: 500
   consecutive_priority: critical
@@ -17,5 +17,5 @@ alerts:
   discord:
     enabled: yes
 nodes:
-  - url: https://omniflix-rpc.polkachu.com:443
+  - url: https://berachain-testnet.rpc.l0vd.com:443
     alert_if_down: yes

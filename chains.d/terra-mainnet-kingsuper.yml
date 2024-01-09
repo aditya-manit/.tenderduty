@@ -2,7 +2,7 @@ chain_id: phoenix-1
 valoper_address: terravaloper1yh4u76y405t3ff9lyrzhhe8legjx9k3as5mujs
 public_fallback: yes
 alerts:
-  stalled_enabled: no
+  stalled_enabled: yes
   stalled_minutes: 40
   consecutive_enabled: yes
   consecutive_missed: 500

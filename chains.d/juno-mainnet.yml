@@ -17,5 +17,5 @@ alerts:
   discord:
     enabled: yes
 nodes:
-  - url: https://rpc-juno.itastakers.com:443
+  - url: https://rpc-1.juno.nodes.guru:443
     alert_if_down: yes
