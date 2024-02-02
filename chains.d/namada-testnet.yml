@@ -1,9 +1,9 @@
-chain_id: artio-80085
-valoper_address: beravaloper1l9wxdywayz6c7a93frfdxnn6uw6e6p3330ywvy
+chain_id: shielded-expedition.b40d8e9055
+valoper_address: cosmosvalcons1p02ux276phdxunkl3vsslz5m80afgc5eys3nld
 public_fallback: yes
 alerts:
   stalled_enabled: yes
-  stalled_minutes: 10
+  stalled_minutes: 40
   consecutive_enabled: yes
   consecutive_missed: 500
   consecutive_priority: critical
@@ -17,5 +17,5 @@ alerts:
   discord:
     enabled: yes
 nodes:
-  - url: https://berachain-testnet-rpc.polkachu.com:443
+  - url: https://rpc-1.namada.nodes.guru:443
     alert_if_down: yes
